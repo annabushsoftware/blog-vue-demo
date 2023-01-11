@@ -1,3 +1,12 @@
+// Your variable overrides (optional)
+$body-bg: #000;
+$body-color: #fff;
+$primary: purple;
+
+// import bootstrap styling (required for bootstrap to work)
+@import '../node_modules/bootstrap/scss/bootstrap';
+@import '../node_modules/bootstrap-vue-3/src/styles/styles';
+
 @import './base.css';
 
 #app {
